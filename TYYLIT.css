@@ -84,6 +84,11 @@ footer {
   body {
       align-items: center;
       text-align: center;
-      background-color: #f8f9fa; /* Yleinen taustaväri, joka erottaa content-area alueen */
+      background-color: white
   }
   
+  .content-area p {
+    margin: 0;
+}
+
+
