@@ -1,10 +1,14 @@
-/* Footer Styles */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 0px ;
     background-color: whitesmoke;
-    color: black;
-  }
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    
+   
+}
+
   
   #footerteksti {
       text-align: center;
@@ -26,9 +30,9 @@ footer {
       height: 50px;
   }
   
-  /* Content Area Styles */
+ 
   .content-area {
-      background-image: url('../kuvat/istockphoto-1209016389-612x612.jpg'); /* Korvaa omalla kuvallasi */
+      background-image: url('../kuvat/istockphoto-1209016389-612x612.jpg'); 
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -168,17 +172,16 @@ td {
     color: blue;
 }
 .custom-carousel {
-    max-width: 500px; /* Set the desired width */
-    margin: 20px auto; /* Center the carousel and add some top/bottom margin */
-    border: 1px solid #ddd; /* Optional: Add border to visualize the size */
-    padding: 10px; /* Optional: Add padding for better visualization */
+    max-width: 500px; /* Aseta haluttu leveys */
+    margin: 20px auto; /* Keskittää karusellin ja lisää vähän ylä/alas marginaalia */
+    border: 1px solid #ddd; 
+    padding: 10px; 
 }
 .custom-carousel .carousel-inner img {
-    width: 100%; /* Ensure images fit within the carousel */
-    height: 300px; /* Set a fixed height for all images */
-    object-fit: cover; /* Ensure the images cover the container without distortion */
+    width: 100%; /* Varmista, että kuvat sopivat karuselliin */
+    height: 300px; /* Aseta kiinteä korkeus kaikille kuville */
+    object-fit: cover; /* Varmista, että kuvat peittävät säilön ilman vääristymistä */
 }
-/* Optional: Adjust the size of the indicators */
 .custom-carousel .carousel-indicators button {
     width: 10px;
     height: 10px;
@@ -292,31 +295,9 @@ h1 {
     z-index: 10; /* Varmistaa, että kuva on muiden elementtien päällä */
 }
 
-/* Lisää tämä tyylitiedostoosi (TYYLIT.css) */
-@media (max-width: 768px) {
-    .logo-container img {
-        width: 50px; /* Pienennä logon kokoa mobiilinäytöille */
-        height: auto;
-    }
 
-    footer h2 {
-        font-size: 1.2rem; /* Pienennä fonttikokoa */
-    }
 
-    footer p {
-        font-size: 0.9rem; /* Pienennä fonttikokoa */
-    }
-
-    .navbar-center {
-        text-align: center;
-        font-size: 1rem;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-}
+ 
 
 
 .navbar-center {
@@ -326,3 +307,31 @@ h1 {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+
+.varientestaus {
+    background-image: url('../kuvat/maalari.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0; 
+  }
+  
+ 
+  .palvelut {
+    background-image: url('../kuvat/tapetointi.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Piilota logo puhelimilla (näytön leveys alle 768px) */
+@media only screen and (max-width: 768px) {
+    .navbar-center {
+      display: none;
+    }
+  }
+  
