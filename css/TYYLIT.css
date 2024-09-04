@@ -1,4 +1,4 @@
-footer {
+.footer123 {
     text-align: center;
     padding: 0px ;
     background-color: whitesmoke;
@@ -8,6 +8,11 @@ footer {
     
    
 }
+
+.indexfooter {
+    margin-top: 0px;
+    background-color: whitesmoke;
+  }
 
   
   #footerteksti {
@@ -335,3 +340,7 @@ ul {
     }
   }
   
+  .indexfooter {
+    margin-top: 10px;
+    background-color: whitesmoke;
+  }
