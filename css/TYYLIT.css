@@ -1,17 +1,52 @@
-.footer123 {
+footer {
     text-align: center;
-    padding: 0px ;
+    padding: 10px; /* Lisää hieman paddingia, jos haluat tilaa footerin ympärille */
     background-color: whitesmoke;
     width: 100%;
+    position: relative;
     bottom: 0;
-    position: fixed;
-    
-   
+    left: 0;
 }
 
+.elfsight-app-7203277e-1835-4844-9c6d-7d6a43310e24 {
+    margin-bottom: 40px; /* Lisää tilaa widgetin ja footerin väliin */
+}
 
+@media (max-width: 768px) {
+    footer {
+        padding: 10px;
+        font-size: 14px; /* Esimerkki pienemmästä tekstikoolta mobiililaitteilla */
+    }
+}
 
+@media (min-width: 769px) {
+    footer {
+        padding: 15px;
+        font-size: 16px; /* Esimerkki suuremmasta tekstikoolta tietokoneilla */
+    }
+}
 
+.indexfooter {
+
+    text-align: center;
+    padding: 10px; /* Lisää hieman paddingia, jos haluat tilaa footerin ympärille */
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.varientestausfooter {
+
+    text-align: center;
+    padding: 10px; /* Lisää hieman paddingia, jos haluat tilaa footerin ympärille */
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
   
   #footerteksti {
       text-align: center;
@@ -91,7 +126,12 @@
   body {
       align-items: center;
       text-align: center;
-      background-color: white
+      background-color: white;
+      margin: 0;
+      
+      box-sizing: border-box;
+      
+      
   }
   
   .content-area p {
@@ -338,20 +378,8 @@ ul {
     }
   }
   
-  .indexfooter {
-    text-align: center;
-    background-color: whitesmoke;
-    width: 100%;
-    bottom: 0;
-    position: relative;
-    z-index: 10; /* Pidä tämä arvossa, joka ei muuta kerrosten järjestystä */
-    padding: 10px 0; /* Lisää hieman paddingia footeriin */
-    padding-top: 20px; /* Lisää ylimääräistä tilaa yläpuolelle */
-}
-
-.elfsight-app-7203277e-1835-4844-9c6d-7d6a43310e24 {
-    margin-bottom: 40px; /* Lisää marginaalia widgetin alapuolelle */
-    position: relative; /* Tämä pitää widgetin normaalisti sivuvirrassa */
+  .elfsight-app-7203277e-1835-4844-9c6d-7d6a43310e24 {
+    margin-bottom: 40px; /* Lisää tilaa widgetin ja footerin väliin */
 }
 
 
