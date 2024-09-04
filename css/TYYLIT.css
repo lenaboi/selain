@@ -9,10 +9,8 @@
    
 }
 
-.indexfooter {
-    margin-top: 0px;
-    background-color: whitesmoke;
-  }
+
+
 
   
   #footerteksti {
@@ -341,6 +339,19 @@ ul {
   }
   
   .indexfooter {
-    margin-top: 10px;
+    text-align: center;
     background-color: whitesmoke;
-  }
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    z-index: 10; /* Pidä tämä arvossa, joka ei muuta kerrosten järjestystä */
+    padding: 10px 0; /* Lisää hieman paddingia footeriin */
+    padding-top: 20px; /* Lisää ylimääräistä tilaa yläpuolelle */
+}
+
+.elfsight-app-7203277e-1835-4844-9c6d-7d6a43310e24 {
+    margin-bottom: 40px; /* Lisää marginaalia widgetin alapuolelle */
+    position: relative; /* Tämä pitää widgetin normaalisti sivuvirrassa */
+}
+
+
